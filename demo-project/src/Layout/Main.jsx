@@ -1,15 +1,7 @@
 import Card from "../components/Card/Card";
 import "./Main.css";
 
-
-const Main = () => {
-    return <div className="Main">      
-            <Card/>
-
-    </div>; 
-    
-};
-
+function Main() {
 const cars =
 [
   {
@@ -32,17 +24,29 @@ const cars =
 
 {
      title: "Ford",
-     price: 30000,
+     price: "30000",
      id: 20,
   },
 
 {
      title: "Porsche",
      price: 100000,
-     id: 30,
-  },
+     id: 30,
+ },
 
+]
+return (
+    <div className="card_items">
+        {
+            cars.map((item)=> (
 
-];
+        // <Card cars="title"   price= "price" key={item.id } />
+         <Card title="title"   price= "price" key={item.id } />
+            ))}
+    </div>
+)
+
+};
+
 
 export default Main;
