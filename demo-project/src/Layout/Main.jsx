@@ -1,52 +1,55 @@
 import Card from "../components/Card/Card";
 import "./Main.css";
 
+import React from 'react'
+
 function Main() {
 const cars =
 [
   {
-     title: "Kia",
+     title: "Kia-",
      price:50000 ,
-     id: 10,
+     id: 1,
   },
 
   {
-     title: "hundai",
+     title: "Hundai-",
      price: 60000,
-     id: 15,
+     id: 2,
   },
 
 {
-     title: "BMW",
+     title: "BMW-",
      price: 75000,
-     id: 25,
+     id: 3,
   },
 
 {
-     title: "Ford",
-     price: "30000",
-     id: 20,
+     title: "Ford-",
+     price: 30000,
+     id: 4,
   },
 
 {
-     title: "Porsche",
+     title: "Porsche-",
      price: 100000,
-     id: 30,
+     id: 5,
  },
 
 ]
 return (
-    <div className="card_items">
-        {
-            cars.map((item)=> (
-
-        // <Card cars="title"   price= "price" key={item.id } />
-         <Card title="title"   price= "price" key={item.id } />
-            ))}
-    </div>
-)
-
-};
+  <>
+ 
+   {cars.map((item)=>{
+   return <Card 
+    title={item.title} 
+    text={item.price} 
+    key={item.id} 
+    />
+  })}
+    </>
+  );
+}
 
 
 export default Main;

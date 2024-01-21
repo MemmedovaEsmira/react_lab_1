@@ -1,6 +1,9 @@
-.btn{
+button{
     padding: 12px 20px;
     border-radius: 10px;
+    border: none;
     background-color: red;
+    color: white;
     margin-left: 20px;
-}
+    margin: 50px;
+    }

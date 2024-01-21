@@ -1,11 +1,15 @@
-.card{
+
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.Card{
     margin-top: 50px;
     width: 200px;
-    height: 300px;
+    height: 200px;
     border-radius: 10px;
     border:2px solid blue;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
+    padding: 50px;
 }

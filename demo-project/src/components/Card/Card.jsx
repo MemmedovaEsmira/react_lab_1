@@ -1,17 +1,20 @@
-import Button from "../Button/Button";
-import "./card.css";
-
+import React from 'react'
+import Button from '../Button/Button'
+import "./Card.css";
 
 const Card = (props) => {
-    console.log("props", props);
-    return (
-        <div className="card">
-            <div className="card_title">{props.title }</div>
-            <div className="card_price">{props.price }</div>
+  return (
+    <>
+   <div className='Cards'>
+      <div className='Card'>
 
-            <Button/>
-        </div>
-    )
-};
+      <Button/>
+      {props.title}
+      {props.text}
+      </div>
+    </div>
+    </>
+  )
+}
 
-export default Card;
+export default Card
