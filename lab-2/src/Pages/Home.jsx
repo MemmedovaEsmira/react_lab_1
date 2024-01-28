@@ -1,25 +1,28 @@
-import React, {useState} from 'react';
+// import React, {useState} from 'react';
 import Slider from '../components/Slider/Slider'
 import img1 from "../assets/Images/img_1.jpg"
 
-import img2 from "../assets/Images/img_2.jpg"
-import img3 from "../assets/Images/img_3.jpg"
 
 
 function  Home  ()  {
   const Images=[
-    "img1",
-    "img2",
-    "img3",
+   {img: img1,
+    id: 1},
   ]
  
 
-     return <Slider
-     img1={img1}
-     img2={img2}
-     img3={img3}
-      />
-   
+  return (
+        <>
+       
+         {Images.map((item)=>{
+         return <Slider 
+          Images={item.img} 
+          key={item.id} 
+          />
+        })}
+          </>
+        );
+    
 }
 
 export default Home;
