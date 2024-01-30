@@ -1,14 +1,13 @@
 
-import img1 from "./assets/Images/bird.svg";
-import img2 from "./assets/Images/cat.svg";
-import img3 from "./assets/Images/cow.svg";
-import img4 from "./assets/Images/dog.svg";
-import img5 from "./assets/Images/gator.svg";
-import img6 from "./assets/Images/horse.svg";
-import img7 from "./assets/Images/heart.svg";
+import img1 from "./bird.svg";
+import img2 from "./cat.svg";
+import img3 from "./cow.svg";
+import img4 from "./dog.svg";
+import img5 from "./gator.svg";
+import img6 from "./horse.svg";
+import img7 from "./heart.svg";
 
-  
- export const animals = {
+ export const animal = {
     img1,
     img2,
     img3,

@@ -1,6 +1,6 @@
 import{useState} from 'react'
 
-import  AnimalCart from'./Components/AnimalCart.jsx'
+import  AnimalCard from'./Components/AnimalCard.jsx'
 import './App.css'
 
 function App() {
@@ -22,23 +22,22 @@ function App() {
  }
 
  function handleAnimal() {
-  setAnimal([...animal,getRandomAnimal])
+  setAnimal([...animal,getRandomAnimal()])
 
  }
 
 
 
-
   return (
     <>
-
-     <AnimalCart/>
-
      <div className='card_btn'>
      <button onClick={handleAnimal}>Click</button>
      </div>
      <div className='card_img'>
-      {animal.map((item) => <AnimalCart title={item} />)}
+      {animal.map((item) => <AnimalCard 
+      title={item}
+ 
+      />)}
      </div>
 
     
