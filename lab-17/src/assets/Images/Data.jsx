@@ -5,7 +5,6 @@ import img3 from "./cow.svg";
 import img4 from "./dog.svg";
 import img5 from "./gator.svg";
 import img6 from "./horse.svg";
-import img7 from "./heart.svg";
 
  export const animal = {
     img1,
@@ -14,5 +13,4 @@ import img7 from "./heart.svg";
     img4,
     img5,
     img6,
-    img7
  }

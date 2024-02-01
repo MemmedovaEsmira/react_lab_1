@@ -14,7 +14,6 @@ function App() {
 "img4",
 "img5",
 "img6",
-"img7"
  ]
 
  function getRandomAnimal() {
@@ -36,7 +35,7 @@ function App() {
      <div className='card_img'>
       {animal.map((item) => <AnimalCard 
       title={item}
- 
+      
       />)}
      </div>
 
