@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+  padding: 2rem;
+  display: grid;
+  align-content: start;
+  justify-content: center;
+  height: 100vh;
+  gap: 10px;
+  
+  }
