@@ -1,16 +1,22 @@
-import './card.css'
+import React from 'react'
+import styles from './card.module.css'
+
+interface CardDataTypes{
+
+title:string,
+img:string,
+key:number
+}
 
 
-// import { useState, useEffect } from "react";
-
-const Card = () => {
-
-
+const Card:React.FC <CardDataTypes> = ({title,img}) => {
   return (
-    <div>
-      
-   </div>
-  );
-  }
+    <>
+      <div className={styles.title_card}>   
+       {title} <img src={img} alt="" />
+     </div> 
+    </>
+  )
+}
 
 export default Card;

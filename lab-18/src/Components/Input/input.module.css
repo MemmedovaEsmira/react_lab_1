@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container_input {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(213, 129, 129);
+    display: flex;
+    align-items: center;
+}
+.container_input_item {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.input_icon {
+   color: white;
+} 

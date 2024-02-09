@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+.container {
+    height: 100vh;
+    padding: 80px;
+    display: grid;
+}
+
+.container_title_box {
+width: 900px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 60px;
+}

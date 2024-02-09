@@ -1,0 +1,18 @@
+.title_card {   
+    width: 200px;
+    height: 90px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgb(167, 86, 86);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img{
+width: 60px;
+height: 60px;
+border: 3px solid rgb(197, 175, 175);
+border-radius: 50%;
+}
