@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(231, 225, 225);
+}
+
+.container{
+    width: 420px;
+    height: 300px;
+    padding: 30px;
+    position: relative;
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+    
+    }
+  
+    .container_input{
+        display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    }
+  
+    .container_btn{
+        width: 70px;
+        height: 70px;
+        padding: 20px;
+        display: flex;
+        background-color: rgb(189, 54, 189);
+        color: white;
+        justify-content: center;
+        align-items: center;
+       border: none;
+       border-radius: 50%;
+       position: absolute;
+       right: 30px;
+       top: 60px;
+  }
+
+  .container_btn:hover{
+    background-color: black;
+    cursor: pointer;
+} 
+  input{
+    /* width: 70px; */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+  /* 2nd method */
+
+/* .container{
+    width: 420px;
+    padding: 30px;
+    position: relative;
+    border-bottom-right-radius: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: white;
+}
+
+input{
+    width: 70px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+small{
+color: red;
+font-size: 0.6rem;
+font-weight: bold;
+}
+
+ span{
+    font-size: 2.75rem;
+    font-style: italic;
+    color: purple;
+}
+
+.container_input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.input_flex{
+    display: flex;
+}
+
+  .container_btn{
+ width: 70px;
+ height: 70px;
+ padding: 20px;
+ display: flex;
+ background-color: rgb(189, 54, 189);
+ color: white;
+ justify-content: center;
+ align-items: center;
+border: none;
+border-radius: 50%;
+position: absolute;
+right: 30px;
+
+}
+
+.container_btn:hover{
+    background-color: black;
+    cursor: pointer;
+} */

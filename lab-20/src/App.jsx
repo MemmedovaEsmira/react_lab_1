@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { AppContext } from '../context/appContext';
-import Card from "./components/Card"
+import AgeCalculator from './components/AgeCalculator';
 
 
 // const AppContext = createContext (null);
@@ -10,10 +10,12 @@ const  App = () => {
   return (
     <>
 <AppContext.Provider value={state}>
-<Card/>
+<AgeCalculator/>
 </AppContext.Provider>
     </>
   )
 }
 
 export default App
+
+
